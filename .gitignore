@@ -11,6 +11,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Qt Creator
+*.autosave
+
 # Distribution / packaging
 .Python
 env/
