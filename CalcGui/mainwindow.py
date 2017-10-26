@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Tue Oct 24 05:21:02 2017
+# Created: Thu Oct 26 05:06:13 2017
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -17,9 +17,9 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout = QtGui.QVBoxLayout(self.centralwidget)
         self.verticalLayout.setObjectName("verticalLayout")
-        self.text = QtGui.QTextEdit(self.centralwidget)
-        self.text.setObjectName("text")
-        self.verticalLayout.addWidget(self.text)
+        self.inpLine = QtGui.QLineEdit(self.centralwidget)
+        self.inpLine.setObjectName("inpLine")
+        self.verticalLayout.addWidget(self.inpLine)
         self.solveButton = QtGui.QPushButton(self.centralwidget)
         self.solveButton.setObjectName("solveButton")
         self.verticalLayout.addWidget(self.solveButton)

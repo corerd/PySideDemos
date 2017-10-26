@@ -38,18 +38,17 @@ class MainViewControl(QtGui.QMainWindow, Ui_MainWindow):
         self.clearButton.clicked.connect(self.clearFunc)
 
     def solveFunc(self):
-        '''Perform any valid mathematical expression entered in QTextEdit widget
+        '''Perform any valid mathematical expression entered in QLineEdit widget
         and put the result.
         '''
         try:
-            ans = eval(self.text.toPlainText())
-            self.text.clear()
-            self.text.insertPlainText(str(ans))
+            ans = eval(self.inpLine.text())
+            self.inpLine.setText(str(ans))
         except Exception:
             print 'error'
 
     def clearFunc(self):
-        self.text.clear()
+        self.inpLine.clear()
 
 
 class GuiApplication(QtGui.QApplication):

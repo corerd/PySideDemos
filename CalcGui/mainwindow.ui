@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QTextEdit" name="text"/>
+     <widget class="QLineEdit" name="inpLine"/>
     </item>
     <item>
      <widget class="QPushButton" name="solveButton">
