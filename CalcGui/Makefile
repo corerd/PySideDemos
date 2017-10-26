@@ -3,6 +3,9 @@
 #
 # This Makefile contains the rules to run a TARGET Python script
 # that depends on Qt Designer ui files.
+#
+# About Qt Creator integration,
+# follow the link: https://stackoverflow.com/a/24121860
 ##
 TARGET = calcgui.py
 
